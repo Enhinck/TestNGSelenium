@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [sjclCase]" skipfailedinvocationcounts="true">
+  <test name="WenTiClCase10(failed)">
+    <classes>
+      <class name="com.core.sjclcase.WenTiClCase10">
+        <methods>
+          <include name="ywzxChongXinPaiFa"/>
+          <include name="beforeTest"/>
+          <include name="qxznbChuLi2"/>
+          <include name="zjzxChuLi2"/>
+          <include name="afterTest"/>
+          <include name="ywzxJieAn"/>
+        </methods>
+      </class> <!-- com.core.sjclcase.WenTiClCase10 -->
+    </classes>
+  </test> <!-- WenTiClCase10(failed) -->
+</suite> <!-- Failed suite [sjclCase] -->

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+
+	<test name="RenWuClCase01" verbose="10"> <!--测试用例： 1、义乌市领导发起非紧急任务，选择办公室，点击暂存。  -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase01"></class>
+		</classes>
+	</test>
+	<test name="RenWuClCase02" verbose="10"><!--2、义乌市领导发起非紧急任务，选择办公室，暂存后，点击提交；区县职能办，区县中心，镇街中心进行任务处理；区县领导审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase02">
+				<methods>
+					<include name="ywldRenWuJiaoBanzc_feiJinJi" />
+					<include name="ywbgsChuLi_feiJinJi" />
+					<include name="ywzxChuLi_feiJinJi" />
+					<include name="zjzxChuLi_feiJinJi" />
+					<include name="qxldShenHe_feiJinJi" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="RenWuClCase03" verbose="10"><!--3、义乌市领导发起紧急任务，直接分派镇街,点击提交；区县中心，镇街中心进行任务处理；区县领导审核结案。-->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase03">
+				<methods>
+					<include name="ywldRenWuJiaoBantj_JinJi" />
+					<include name="ywzxChuLi_JinJi" />
+					<include name="zjzxChuLi_JinJi" />
+					<include name="qxldShenHe_JinJi" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase04" verbose="10"><!--4、义乌职能办发起任务，直接分派镇街,点击提交；区县中心，镇街中心进行任务处理；区县职能办审核结案。（此处紧急非紧急无用） -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase04">
+				<methods>
+					<include name="ywznbRenWuJiaoBantj" />
+					<include name="ywzxChuLi" />
+					<include name="zjzxChuLi" />
+					<include name="qxznbShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase05" verbose="10"><!--5、义乌中心发起任务，直接分派镇街,点击提交；镇街中心进行任务处理；义乌中心审核结案。（此处紧急非紧急无用） -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase05">
+				<methods>
+					<include name="qxzxRenWuJiaoBantj" />
+					<include name="zjzxChuLi" />
+					<include name="qxzxShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase06" verbose="10"><!--6、镇街职能办发起任务，不需要片区审核，直派网格，点击提交；镇街中心处理，网格长处理，镇街职能办审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase06">
+				<methods>
+					<include name="zjznbRenWuJiaoBantj" />
+					<include name="zjzxChuLi" />
+					<include name="wgzChuLi" />
+					<include name="zjznbShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase07" verbose="10"><!--7、镇街职能办发起任务，需要片区审核，直派网格，点击提交；镇街中心处理，网格长处理，片区长审核，镇街职能办审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase07">
+				<methods>
+					<include name="zjznbRenWuJiaoBantj" />
+					<include name="zjzxChuLi" />
+					<include name="wgzChuLi" />
+					<include name="pqzShenHe" />
+					<include name="zjznbShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase08" verbose="10"><!--8、镇街职能办发起任务，需要片区审核，不直派网格，点击提交；镇街中心处理分派片区，片区长处理分派网格，网格长处理，片区长审核，镇街职能办审核结案。-->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase08">
+				<methods>
+					<include name="zjznbRenWuJiaoBantj" />
+					<include name="zjzxChuLi" />
+					<include name="pqzChuLi" />
+					<include name="wgzChuLi" />
+					<include name="pqzShenHe" />
+					<include name="zjznbShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase09" verbose="10"><!--9、镇街中心发起任务，不需要片区审核，直派网格，点击提交；网格长处理，镇街中心审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase09">
+				<methods>
+					<include name="zjzxRenWuJiaoBantj" />
+					<include name="wgzChuLi" />
+					<include name="zjzxShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase10" verbose="10"><!--10、镇街中心发起任务，需要片区审核，直派网格，点击提交；网格长处理，片区长审核，镇街中心审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase10">
+				<methods>
+					<include name="zjzxRenWuJiaoBantj" />
+					<include name="wgzChuLi" />
+					<include name="pqzShenHe" />
+					<include name="zjzxShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase11" verbose="10"><!--11、镇街中心发起任务，需要片区审核，不直派网格，点击提交；片区长处理，网格长处理，片区长审核，镇街中心审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase11">
+				<methods>
+					<include name="zjzxRenWuJiaoBantj" />
+					<include name="pqzChuLi" />
+					<include name="wgzChuLi" />
+					<include name="pqzShenHe" />
+					<include name="zjzxShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase12" verbose="10"><!--12、片区长发起任务，点击提交；网格长处理，片区长审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase12">
+				<methods>
+					<include name="pqzRenWuJiaoBantj" />
+					<include name="wgzChuLi" />
+					<include name="pqzShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="RenWuClCase13" verbose="10"><!--13、义乌中心发起任务，直接分派镇街,点击提交；镇街中心进行任务下发，后进行处理；义乌中心审核结案。（此处紧急非紧急无用）-->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase13">
+				<methods>
+					<include name="qxzxRenWuJiaoBantj" />
+					<include name="zjzxXiaFa" />
+					<include name="wgzChuLi" />
+					<include name="zjzxShenHe" />
+					<include name="zjzxChuLi" />
+					<include name="qxzxShenHe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ywdemo02" basedir="." default="transform">
+	<property name="lib.dir" value="lib" />
+	<path id="test.classpath">
+		<!-- adding the saxon jar to your classpath -->
+		<fileset dir="${lib.dir}" includes="*.jar" />
+	</path>
+	<target name="transform">
+		<delete dir="test-output\index1.html" />
+		<echo message="删除文件">
+		</echo>
+		<!--
+		{in}和{style}：对应的是testng生成报告的xml和xsl；(可以将两个文件放到同一个文件夹下面，然后路径就是一样的)
+		{out}：是要用testNG-xslt生成报告的文件名和路径；
+		{expression}：是要用testNG-xslt生成报告的路径。
+		-->
+		<xslt in="E:\workspace\ywdemo02\test-output\testng-results.xml" style="E:\workspace\ywdemo02\test-output\testng-results.xsl" out="E:\workspace\ywdemo02\test-output\index1.html ">
+			<!-- you need to specify the directory here again -->
+			<param name="testNgXslt.outputDir" expression="E:\workspace\ywdemo02\test-output" />
+			<classpath refid="test.classpath" />
+		</xslt>
+	</target>
+</project>

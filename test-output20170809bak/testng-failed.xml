@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [renwuclcase]" skipfailedinvocationcounts="true">
+  <test name="RenWuClCase01(failed)">
+    <classes>
+      <class name="com.core.renwuclcase.RenWuClCase02">
+        <methods>
+          <include name="qxldShenHe_feiJinJi"/>
+          <include name="ywbgsChuLi_feiJinJi"/>
+          <include name="ywldRenWuJiaoBanzc_feiJinJi"/>
+          <include name="afterTest"/>
+          <include name="zjzxChuLi_feiJinJi"/>
+          <include name="beforeTest"/>
+          <include name="ywzxChuLi_feiJinJi"/>
+        </methods>
+      </class> <!-- com.core.renwuclcase.RenWuClCase02 -->
+    </classes>
+  </test> <!-- RenWuClCase01(failed) -->
+  <test name="RenWuClCase11(failed)">
+    <classes>
+      <class name="com.core.renwuclcase.RenWuClCase11">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="zjzxShenHe"/>
+        </methods>
+      </class> <!-- com.core.renwuclcase.RenWuClCase11 -->
+    </classes>
+  </test> <!-- RenWuClCase11(failed) -->
+  <test name="RenWuClCase12(failed)">
+    <classes>
+      <class name="com.core.renwuclcase.RenWuClCase12">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="wgzChuLi"/>
+          <include name="pqzShenHe"/>
+        </methods>
+      </class> <!-- com.core.renwuclcase.RenWuClCase12 -->
+    </classes>
+  </test> <!-- RenWuClCase12(failed) -->
+</suite> <!-- Failed suite [renwuclcase] -->

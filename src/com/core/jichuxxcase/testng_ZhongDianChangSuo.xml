@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	
+	<!-- 基础信息>>企业>>重点场所 -->
+	<test name="ZhongDianChangSuoCase01" verbose="10"> <!--测试用例： 基础信息>>重点场所>>重点学校，新增学校，提交。-->
+		<classes>
+			<class name="com.core.jichuxxcase.ZhongDianChangSuoCase01"></class>
+		</classes>
+	</test>
+	<test name="ZhongDianChangSuoCase02" verbose="10"> <!--测试用例： 基础信息>>重点场所>>重点学校，新增学校，提交之后;点击编辑，再次提交；点击删除，验证是否删除成功。-->
+		<classes>
+			<class name="com.core.jichuxxcase.ZhongDianChangSuoCase02"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

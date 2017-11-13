@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [shijianclCase]" skipfailedinvocationcounts="true">
+  <test name="WenTiClCase06(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase06">
+        <methods>
+          <include name="pqzChuLi"/>
+          <include name="zjzxcxpf"/>
+          <include name="zjzxhc"/>
+          <include name="znbChuLi"/>
+          <include name="znbChuLi2"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="hc"/>
+          <include name="zjzxja"/>
+          <include name="pqzChuLi2"/>
+          <include name="wgzChuLi2"/>
+          <include name="wgzChuLi"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase06 -->
+    </classes>
+  </test> <!-- WenTiClCase06(failed) -->
+  <test name="WenTiClCase07(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase07">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="zjzxDj"/>
+          <include name="znb1"/>
+          <include name="afterTest"/>
+          <include name="wgz2"/>
+          <include name="pqz1"/>
+          <include name="zjzx2"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase07 -->
+    </classes>
+  </test> <!-- WenTiClCase07(failed) -->
+  <test name="WenTiClCase08(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase08">
+        <methods>
+          <include name="ywzxja"/>
+          <include name="ywzxDj"/>
+          <include name="qxznb"/>
+          <include name="zjzxcl"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase08 -->
+    </classes>
+  </test> <!-- WenTiClCase08(failed) -->
+  <test name="WenTiClCase09(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase09">
+        <methods>
+          <include name="zjzxJieAn"/>
+          <include name="afterTest"/>
+          <include name="ywzxJieAn"/>
+          <include name="qxznb"/>
+          <include name="zjzxChuLi"/>
+          <include name="znbChuLi"/>
+          <include name="wgzChuLi"/>
+          <include name="beforeTest"/>
+          <include name="pqzChuLi"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase09 -->
+    </classes>
+  </test> <!-- WenTiClCase09(failed) -->
+  <test name="WenTiClCase10(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase10">
+        <methods>
+          <include name="afterTest"/>
+          <include name="ywzxJieAn"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase10 -->
+    </classes>
+  </test> <!-- WenTiClCase10(failed) -->
+</suite> <!-- Failed suite [shijianclCase] -->

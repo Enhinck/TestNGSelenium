@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="48" passed="48">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sjclCase" duration-ms="2083396" started-at="2017-08-04T02:57:49Z" finished-at="2017-08-04T03:32:32Z">
+    <groups>
+    </groups>
+    <test name="WenTiClCase01" duration-ms="56059" started-at="2017-08-04T02:57:49Z" finished-at="2017-08-04T02:58:45Z">
+      <class name="com.core.sjclcase.WenTiClCase01">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase01@3bfdc050]" name="beforeTest" is-config="true" duration-ms="8289" started-at="2017-08-04T10:57:49Z" finished-at="2017-08-04T10:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgz_zancun()[pri:0, instance:com.core.sjclcase.WenTiClCase01@3bfdc050]" name="wgz_zancun" duration-ms="47681" started-at="2017-08-04T10:57:57Z" finished-at="2017-08-04T10:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz_zancun -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase01@3bfdc050]" name="afterTest" is-config="true" duration-ms="60" started-at="2017-08-04T10:58:45Z" finished-at="2017-08-04T10:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase01 -->
+    </test> <!-- WenTiClCase01 -->
+    <test name="WenTiClCase02" duration-ms="76224" started-at="2017-08-04T02:58:45Z" finished-at="2017-08-04T03:00:01Z">
+      <class name="com.core.sjclcase.WenTiClCase02">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase02@239963d8]" name="beforeTest" is-config="true" duration-ms="7068" started-at="2017-08-04T10:58:45Z" finished-at="2017-08-04T10:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgz_zancun02()[pri:0, instance:com.core.sjclcase.WenTiClCase02@239963d8]" name="wgz_zancun02" duration-ms="66837" started-at="2017-08-04T10:58:52Z" finished-at="2017-08-04T10:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz_zancun02 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase02@239963d8]" name="afterTest" is-config="true" duration-ms="2317" started-at="2017-08-04T10:59:59Z" finished-at="2017-08-04T11:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase02 -->
+    </test> <!-- WenTiClCase02 -->
+    <test name="WenTiClCase03" duration-ms="133181" started-at="2017-08-04T03:00:01Z" finished-at="2017-08-04T03:02:14Z">
+      <class name="com.core.sjclcase.WenTiClCase03">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase03@553f17c]" name="beforeTest" is-config="true" duration-ms="6602" started-at="2017-08-04T11:00:01Z" finished-at="2017-08-04T11:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgz_zancun02()[pri:0, instance:com.core.sjclcase.WenTiClCase03@553f17c]" name="wgz_zancun02" duration-ms="64854" started-at="2017-08-04T11:00:08Z" finished-at="2017-08-04T11:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz_zancun02 -->
+        <test-method status="PASS" signature="wgz_zijiean()[pri:0, instance:com.core.sjclcase.WenTiClCase03@553f17c]" name="wgz_zijiean" duration-ms="61660" started-at="2017-08-04T11:01:13Z" depends-on-methods="com.core.sjclcase.WenTiClCase03.wgz_zancun02" finished-at="2017-08-04T11:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz_zijiean -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase03@553f17c]" name="afterTest" is-config="true" duration-ms="50" started-at="2017-08-04T11:02:14Z" finished-at="2017-08-04T11:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase03 -->
+    </test> <!-- WenTiClCase03 -->
+    <test name="WenTiClCase04" duration-ms="81503" started-at="2017-08-04T03:02:14Z" finished-at="2017-08-04T03:03:36Z">
+      <class name="com.core.sjclcase.WenTiClCase04">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase04@2f686d1f]" name="beforeTest" is-config="true" duration-ms="6889" started-at="2017-08-04T11:02:14Z" finished-at="2017-08-04T11:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgz_zjiean()[pri:0, instance:com.core.sjclcase.WenTiClCase04@2f686d1f]" name="wgz_zjiean" duration-ms="74568" started-at="2017-08-04T11:02:21Z" finished-at="2017-08-04T11:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz_zjiean -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase04@2f686d1f]" name="afterTest" is-config="true" duration-ms="45" started-at="2017-08-04T11:03:36Z" finished-at="2017-08-04T11:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase04 -->
+    </test> <!-- WenTiClCase04 -->
+    <test name="WenTiClCase05" duration-ms="232155" started-at="2017-08-04T03:03:36Z" finished-at="2017-08-04T03:07:28Z">
+      <class name="com.core.sjclcase.WenTiClCase05">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="beforeTest" is-config="true" duration-ms="8541" started-at="2017-08-04T11:03:36Z" finished-at="2017-08-04T11:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgz1()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="wgz1" duration-ms="53733" started-at="2017-08-04T11:03:45Z" finished-at="2017-08-04T11:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz1 -->
+        <test-method status="PASS" signature="zjzx1()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="zjzx1" duration-ms="26128" started-at="2017-08-04T11:04:38Z" depends-on-methods="com.core.sjclcase.WenTiClCase05.wgz1" finished-at="2017-08-04T11:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzx1 -->
+        <test-method status="PASS" signature="pqz1()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="pqz1" duration-ms="24412" started-at="2017-08-04T11:05:04Z" depends-on-methods="com.core.sjclcase.WenTiClCase05.zjzx1" finished-at="2017-08-04T11:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqz1 -->
+        <test-method status="PASS" signature="znb1()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="znb1" duration-ms="26008" started-at="2017-08-04T11:05:29Z" depends-on-methods="com.core.sjclcase.WenTiClCase05.pqz1" finished-at="2017-08-04T11:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- znb1 -->
+        <test-method status="PASS" signature="wgz2()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="wgz2" duration-ms="41988" started-at="2017-08-04T11:05:55Z" depends-on-methods="com.core.sjclcase.WenTiClCase05.znb1" finished-at="2017-08-04T11:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz2 -->
+        <test-method status="PASS" signature="zjzx2()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="zjzx2" duration-ms="49002" started-at="2017-08-04T11:06:37Z" depends-on-methods="com.core.sjclcase.WenTiClCase05.wgz2" finished-at="2017-08-04T11:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzx2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase05@5f2108b5]" name="afterTest" is-config="true" duration-ms="2336" started-at="2017-08-04T11:07:26Z" finished-at="2017-08-04T11:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase05 -->
+    </test> <!-- WenTiClCase05 -->
+    <test name="WenTiClCase06" duration-ms="417432" started-at="2017-08-04T03:07:28Z" finished-at="2017-08-04T03:14:26Z">
+      <class name="com.core.sjclcase.WenTiClCase06">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="beforeTest" is-config="true" duration-ms="7447" started-at="2017-08-04T11:07:28Z" finished-at="2017-08-04T11:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="wgzShangBao()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="wgzShangBao" duration-ms="53957" started-at="2017-08-04T11:07:36Z" finished-at="2017-08-04T11:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgzShangBao -->
+        <test-method status="PASS" signature="zjzxPaiFa()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="zjzxPaiFa" duration-ms="25903" started-at="2017-08-04T11:08:30Z" finished-at="2017-08-04T11:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxPaiFa -->
+        <test-method status="PASS" signature="pqzChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="pqzChuLi" duration-ms="24427" started-at="2017-08-04T11:08:56Z" finished-at="2017-08-04T11:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqzChuLi -->
+        <test-method status="PASS" signature="znbChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="znbChuLi" duration-ms="24486" started-at="2017-08-04T11:09:20Z" finished-at="2017-08-04T11:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- znbChuLi -->
+        <test-method status="PASS" signature="wgzChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="wgzChuLi" duration-ms="38284" started-at="2017-08-04T11:09:44Z" finished-at="2017-08-04T11:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgzChuLi -->
+        <test-method status="PASS" signature="zjzxcxpf()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="zjzxcxpf" duration-ms="32928" started-at="2017-08-04T11:10:23Z" finished-at="2017-08-04T11:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxcxpf -->
+        <test-method status="PASS" signature="pqzChuLi2()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="pqzChuLi2" duration-ms="24531" started-at="2017-08-04T11:10:56Z" finished-at="2017-08-04T11:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqzChuLi2 -->
+        <test-method status="PASS" signature="znbChuLi2()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="znbChuLi2" duration-ms="24646" started-at="2017-08-04T11:11:20Z" finished-at="2017-08-04T11:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- znbChuLi2 -->
+        <test-method status="PASS" signature="wgzChuLi2()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="wgzChuLi2" duration-ms="43432" started-at="2017-08-04T11:11:45Z" finished-at="2017-08-04T11:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgzChuLi2 -->
+        <test-method status="PASS" signature="zjzxhc()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="zjzxhc" duration-ms="30834" started-at="2017-08-04T11:12:28Z" finished-at="2017-08-04T11:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxhc -->
+        <test-method status="PASS" signature="hc()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="hc" duration-ms="43721" started-at="2017-08-04T11:12:59Z" finished-at="2017-08-04T11:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hc -->
+        <test-method status="PASS" signature="zjzxja()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="zjzxja" duration-ms="42451" started-at="2017-08-04T11:13:43Z" finished-at="2017-08-04T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxja -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase06@5cb9f472]" name="afterTest" is-config="true" duration-ms="373" started-at="2017-08-04T11:14:25Z" finished-at="2017-08-04T11:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase06 -->
+    </test> <!-- WenTiClCase06 -->
+    <test name="WenTiClCase07" duration-ms="191389" started-at="2017-08-04T03:14:26Z" finished-at="2017-08-04T03:17:37Z">
+      <class name="com.core.sjclcase.WenTiClCase07">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="beforeTest" is-config="true" duration-ms="7366" started-at="2017-08-04T11:14:26Z" finished-at="2017-08-04T11:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="zjzxDj()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="zjzxDj" duration-ms="44615" started-at="2017-08-04T11:14:33Z" finished-at="2017-08-04T11:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxDj -->
+        <test-method status="PASS" signature="pqz1()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="pqz1" duration-ms="24428" started-at="2017-08-04T11:15:18Z" depends-on-methods="com.core.sjclcase.WenTiClCase07.zjzxDj" finished-at="2017-08-04T11:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqz1 -->
+        <test-method status="PASS" signature="znb1()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="znb1" duration-ms="24242" started-at="2017-08-04T11:15:42Z" depends-on-methods="com.core.sjclcase.WenTiClCase07.pqz1" finished-at="2017-08-04T11:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- znb1 -->
+        <test-method status="PASS" signature="wgz2()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="wgz2" duration-ms="43515" started-at="2017-08-04T11:16:06Z" depends-on-methods="com.core.sjclcase.WenTiClCase07.znb1" finished-at="2017-08-04T11:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgz2 -->
+        <test-method status="PASS" signature="zjzx2()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="zjzx2" duration-ms="47165" started-at="2017-08-04T11:16:50Z" depends-on-methods="com.core.sjclcase.WenTiClCase07.wgz2" finished-at="2017-08-04T11:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzx2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase07@5702b3b1]" name="afterTest" is-config="true" duration-ms="53" started-at="2017-08-04T11:17:37Z" finished-at="2017-08-04T11:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase07 -->
+    </test> <!-- WenTiClCase07 -->
+    <test name="WenTiClCase08" duration-ms="193837" started-at="2017-08-04T03:17:37Z" finished-at="2017-08-04T03:20:51Z">
+      <class name="com.core.sjclcase.WenTiClCase08">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="beforeTest" is-config="true" duration-ms="6985" started-at="2017-08-04T11:17:37Z" finished-at="2017-08-04T11:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ywzxDj()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="ywzxDj" duration-ms="57417" started-at="2017-08-04T11:17:44Z" finished-at="2017-08-04T11:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxDj -->
+        <test-method status="PASS" signature="qxznb()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="qxznb" duration-ms="43780" started-at="2017-08-04T11:18:42Z" depends-on-methods="com.core.sjclcase.WenTiClCase08.ywzxDj" finished-at="2017-08-04T11:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qxznb -->
+        <test-method status="PASS" signature="zjzxcl()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="zjzxcl" duration-ms="24674" started-at="2017-08-04T11:19:25Z" depends-on-methods="com.core.sjclcase.WenTiClCase08.qxznb" finished-at="2017-08-04T11:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxcl -->
+        <test-method status="PASS" signature="ywzxja()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="ywzxja" duration-ms="58667" started-at="2017-08-04T11:19:50Z" depends-on-methods="com.core.sjclcase.WenTiClCase08.zjzxcl" finished-at="2017-08-04T11:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxja -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase08@20322d26]" name="afterTest" is-config="true" duration-ms="2310" started-at="2017-08-04T11:20:49Z" finished-at="2017-08-04T11:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase08 -->
+    </test> <!-- WenTiClCase08 -->
+    <test name="WenTiClCase09" duration-ms="379287" started-at="2017-08-04T03:20:51Z" finished-at="2017-08-04T03:27:10Z">
+      <class name="com.core.sjclcase.WenTiClCase09">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="beforeTest" is-config="true" duration-ms="6413" started-at="2017-08-04T11:20:51Z" finished-at="2017-08-04T11:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ywzxDj()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="ywzxDj" duration-ms="57802" started-at="2017-08-04T11:20:57Z" finished-at="2017-08-04T11:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxDj -->
+        <test-method status="PASS" signature="qxznb()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="qxznb" duration-ms="43499" started-at="2017-08-04T11:21:55Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.ywzxDj" finished-at="2017-08-04T11:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qxznb -->
+        <test-method status="PASS" signature="zjzxPaiFa()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="zjzxPaiFa" duration-ms="44047" started-at="2017-08-04T11:22:39Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.qxznb" finished-at="2017-08-04T11:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxPaiFa -->
+        <test-method status="PASS" signature="pqzChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="pqzChuLi" duration-ms="24305" started-at="2017-08-04T11:23:23Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.zjzxPaiFa" finished-at="2017-08-04T11:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqzChuLi -->
+        <test-method status="PASS" signature="znbChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="znbChuLi" duration-ms="24427" started-at="2017-08-04T11:23:47Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.pqzChuLi" finished-at="2017-08-04T11:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- znbChuLi -->
+        <test-method status="PASS" signature="wgzChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="wgzChuLi" duration-ms="43533" started-at="2017-08-04T11:24:11Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.znbChuLi" finished-at="2017-08-04T11:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wgzChuLi -->
+        <test-method status="PASS" signature="zjzxJieAn()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="zjzxJieAn" duration-ms="46349" started-at="2017-08-04T11:24:55Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.wgzChuLi" finished-at="2017-08-04T11:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxJieAn -->
+        <test-method status="PASS" signature="zjzxChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="zjzxChuLi" duration-ms="24407" started-at="2017-08-04T11:25:41Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.zjzxJieAn" finished-at="2017-08-04T11:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxChuLi -->
+        <test-method status="PASS" signature="ywzxJieAn()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="ywzxJieAn" duration-ms="64122" started-at="2017-08-04T11:26:06Z" depends-on-methods="com.core.sjclcase.WenTiClCase09.zjzxChuLi" finished-at="2017-08-04T11:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxJieAn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase09@617faa95]" name="afterTest" is-config="true" duration-ms="375" started-at="2017-08-04T11:27:10Z" finished-at="2017-08-04T11:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase09 -->
+    </test> <!-- WenTiClCase09 -->
+    <test name="WenTiClCase10" duration-ms="321927" started-at="2017-08-04T03:27:10Z" finished-at="2017-08-04T03:32:32Z">
+      <class name="com.core.sjclcase.WenTiClCase10">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="beforeTest" is-config="true" duration-ms="7173" started-at="2017-08-04T11:27:10Z" finished-at="2017-08-04T11:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ywzxDj()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="ywzxDj" duration-ms="57764" started-at="2017-08-04T11:27:17Z" finished-at="2017-08-04T11:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxDj -->
+        <test-method status="PASS" signature="qxznbChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="qxznbChuLi" duration-ms="44616" started-at="2017-08-04T11:28:15Z" finished-at="2017-08-04T11:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qxznbChuLi -->
+        <test-method status="PASS" signature="zjzxChuLi()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="zjzxChuLi" duration-ms="25991" started-at="2017-08-04T11:29:00Z" finished-at="2017-08-04T11:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxChuLi -->
+        <test-method status="PASS" signature="ywzxChongXinPaiFa()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="ywzxChongXinPaiFa" duration-ms="46003" started-at="2017-08-04T11:29:26Z" finished-at="2017-08-04T11:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxChongXinPaiFa -->
+        <test-method status="PASS" signature="qxznbChuLi2()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="qxznbChuLi2" duration-ms="47006" started-at="2017-08-04T11:30:12Z" finished-at="2017-08-04T11:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qxznbChuLi2 -->
+        <test-method status="PASS" signature="zjzxChuLi2()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="zjzxChuLi2" duration-ms="25994" started-at="2017-08-04T11:30:59Z" finished-at="2017-08-04T11:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zjzxChuLi2 -->
+        <test-method status="PASS" signature="ywzxJieAn()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="ywzxJieAn" duration-ms="67000" started-at="2017-08-04T11:31:25Z" finished-at="2017-08-04T11:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywzxJieAn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.core.sjclcase.WenTiClCase10@66480dd7]" name="afterTest" is-config="true" duration-ms="372" started-at="2017-08-04T11:32:32Z" finished-at="2017-08-04T11:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.core.sjclcase.WenTiClCase10 -->
+    </test> <!-- WenTiClCase10 -->
+  </suite> <!-- sjclCase -->
+</testng-results>

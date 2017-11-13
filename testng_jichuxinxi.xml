@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	<!--基础信息,户籍人口  -->
+	<test name="JiChuXinXiCase01" verbose="10"> <!--测试用例：基础信息,户籍人口，新增（必填信息），编辑提交，查看功能验证  -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase01">
+				<methods>
+					<include name="AddPeople" />
+					<include name="EditPeople" />
+					<include name="ChaKanPeople" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase02" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）  -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase02"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase03" verbose="10"> <!--测试用例： 基础信息>>户籍人口，新增（完整信息）,提交之后，再次点击新增，输入相同的身份证，弹出提示信息，点确定进入编辑页面，后提交。 -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase03"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase04" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击迁出，迁出网格至佛堂镇-义南工业区-1-1（傅晓康）ft010101 -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase04"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase05" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击常转流-->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase05"></class>
+		</classes>
+	</test>	
+	<test name="JiChuXinXiCase06" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase06"></class>
+		</classes>
+	</test>
+	
+	<!-- 基础信息>>企业>>重点场所 -->
+	<test name="ZhongDianChangSuoCase01" verbose="10"> <!--测试用例： 基础信息>>重点场所>>重点学校，新增学校，提交。-->
+		<classes>
+			<class name="com.core.jichuxxcase.ZhongDianChangSuoCase01"></class>
+		</classes>
+	</test>
+	<test name="ZhongDianChangSuoCase02" verbose="10"> <!--测试用例： 基础信息>>重点场所>>重点学校，新增学校，提交之后;点击编辑，再次提交；点击删除，验证是否删除成功。-->
+		<classes>
+			<class name="com.core.jichuxxcase.ZhongDianChangSuoCase02"></class>
+		</classes>
+	</test>
+	
+	<!-- 基础信息>>企业>>企业信息 -->
+	<test name="CompanyCase01" verbose="10"> <!--测试用例： 基础信息>>企业，新增企业(必填)，提交之后;通过根据企业名称查询，验证是否新增成功。-->
+		<classes>
+			<class name="com.core.jichuxxcase.CompanyCase01"></class>
+		</classes>
+	</test>
+	<test name="CompanyCase02" verbose="10"> <!--测试用例： 基础信息>>企业，新增企业(必填)，提交之后;点击编辑，再次提交；点击删除，验证是否删除成功。-->
+		<classes>
+			<class name="com.core.jichuxxcase.CompanyCase02"></class>
+		</classes>
+	</test>
+	
+	<!-- 基础信息>>家政商家>>家政商家 -->
+	<test name="JiaZhengShangJiaCase01" verbose="10"> <!--测试用例： 基础信息>>家政商家>>家政商家，新增提交。-->
+		<classes>
+			<class name="com.core.jichuxxcase.JiaZhengShangJiaCase01"></class>
+		</classes>
+	</test>
+	<test name="JiaZhengShangJiaCase02" verbose="10"> <!--测试用例： 基础信息>>家政商家>>家政商家，新增提交；编辑提交；删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.JiaZhengShangJiaCase02"></class>
+		</classes>
+	</test>
+	
+	<!-- 基础信息>>房屋>>住房管理 -->
+	<test name="FangWuCase01" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交。(使用类别为出租房)-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase01"></class>
+		</classes>
+	</test>
+	<test name="FangWuCase02" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交。(使用类别为自住房)-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase02"></class>
+		</classes>
+	</test>
+	<test name="FangWuCase03" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交(使用类别为出租房)；编辑后，提交；点击删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase03"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

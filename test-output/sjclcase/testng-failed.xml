@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [sjclCase]" skipfailedinvocationcounts="true">
+  <test name="WenTiClCase09(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase09">
+        <methods>
+          <include name="zjzxJieAn"/>
+          <include name="afterTest"/>
+          <include name="ywzxJieAn"/>
+          <include name="qxznb"/>
+          <include name="zjzxChuLi"/>
+          <include name="znbChuLi"/>
+          <include name="wgzChuLi"/>
+          <include name="beforeTest"/>
+          <include name="pqzChuLi"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase09 -->
+    </classes>
+  </test> <!-- WenTiClCase09(failed) -->
+  <test name="WenTiClCase10(failed)">
+    <classes>
+      <class name="com.core.shijianclcase.WenTiClCase10">
+        <methods>
+          <include name="qxznbChuLi2"/>
+          <include name="afterTest"/>
+          <include name="ywzxChongXinPaiFa"/>
+          <include name="ywzxDj"/>
+          <include name="ywzxJieAn"/>
+          <include name="qxznbChuLi"/>
+          <include name="beforeTest"/>
+          <include name="zjzxChuLi2"/>
+          <include name="zjzxChuLi"/>
+        </methods>
+      </class> <!-- com.core.shijianclcase.WenTiClCase10 -->
+    </classes>
+  </test> <!-- WenTiClCase10(failed) -->
+</suite> <!-- Failed suite [sjclCase] -->

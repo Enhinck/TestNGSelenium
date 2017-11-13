@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sjclCase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	<test name="WenTiClCase09" verbose="10"><!-- 9、市级中心登记-派发镇街和市职能办，市职能办进行反馈，镇街中心可进行派发和反馈。镇街中心派发至片区，职能办，网格，并结案。义乌中心处理，并结案。 -->
+		<classes>
+			<class name="com.core.shijianclcase.WenTiClCase09">
+				<methods>
+				 	<include name="ywzxDj"/>
+				 	<include name="zjzxPaiFa"/>
+				 	<include name="pqzChuLi"/>
+				 	<include name="znbChuLi"/>
+				 	<include name="wgzChuLi"/>
+				 	<include name="zjzxJieAn"/>
+				 	<include name="zjzxChuLi"/>
+				 	<include name="qxznb"/>
+				 	<include name="ywzxJieAn"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->

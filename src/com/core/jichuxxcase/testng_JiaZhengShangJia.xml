@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	
+	<!-- 基础信息>>家政商家>>家政商家 -->
+	<test name="JiaZhengShangJiaCase01" verbose="10"> <!--测试用例： 基础信息>>家政商家>>家政商家，新增提交。-->
+		<classes>
+			<class name="com.core.jichuxxcase.JiaZhengShangJiaCase01"></class>
+		</classes>
+	</test>
+	<test name="JiaZhengShangJiaCase02" verbose="10"> <!--测试用例： 基础信息>>家政商家>>家政商家，新增提交；编辑提交；删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.JiaZhengShangJiaCase02"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	
+	<!-- 基础信息>>房屋>>住房管理 -->
+	<test name="FangWuCase01" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交。(使用类别为出租房)-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase01"></class>
+		</classes>
+	</test>
+	<test name="FangWuCase02" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交。(使用类别为自住房)-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase02"></class>
+		</classes>
+	</test>
+	<test name="FangWuCase03" verbose="10"> <!--测试用例： 基础信息>>房屋>>住房管理，新增提交(使用类别为出租房)；编辑后，提交；点击删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.FangWuCase03"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

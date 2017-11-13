@@ -1,0 +1,926 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>WenTiClCase08</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">4</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">75%</div>
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_ywzxja_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxja_byStatus_failed_FAIL1_details')">ywzxja()</a>
+               </td>
+               <td nowrap="true">10:10:26</td>
+               <td nowrap="true" align="right">9 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxja_byStatus_failed_FAIL1_exception')">org.openqa.selenium.UnhandledAlertException: 
+                     unexpected alert open: {Alert text : 请求失败}
+                     (Session info: chrome=60.0.3112.101)
+                     (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 7 milliseconds: null
+                     Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+                     System info: host: 'BAD-PC', ip: '192.168.71.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                     '1.8.0_92'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8268_13565},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101,
+                     platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: dc352bb41d4a4415f45386b80fd783fe
+                     *** Element info: {Using=name, value=username}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxja_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>ywzxja
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>ywzxja()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>9 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.zjzxcl
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxja_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : 请求失败}
+                        (Session info: chrome=60.0.3112.101)
+                        (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 7 milliseconds: null
+                        Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+                        System info: host: 'BAD-PC', ip: '192.168.71.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                        '1.8.0_92'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8268_13565},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101,
+                        platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: dc352bb41d4a4415f45386b80fd783fe
+                        *** Element info: {Using=name, value=username}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:173)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+                        	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+                        	at com.core.webdriver.CoreBrowser.findElement(CoreBrowser.java:34)
+                        	at com.core.page.base.AbstractPage.setInputByName(AbstractPage.java:64)
+                        	at com.core.page.LoginPage.setUserName(LoginPage.java:13)
+                        	at com.core.page.LoginPage.login(LoginPage.java:25)
+                        	at com.core.shijianclcase.WenTiClCase08.ywzxja(WenTiClCase08.java:164)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+                        	at org.testng.TestRunner.run(TestRunner.java:602)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1144)
+                        	at org.testng.TestNG.run(TestNG.java:1115)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_beforeTest_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_beforeTest_byStatus_passed_PASS1_details')">beforeTest()</a>
+               </td>
+               <td nowrap="true">10:08:42</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_beforeTest_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeTest
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeTest()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:08:42
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:08:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_ywzxDj_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxDj_byStatus_passed_PASS2_details')">ywzxDj()</a>
+               </td>
+               <td nowrap="true">10:08:53</td>
+               <td nowrap="true" align="right">42s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxDj_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>ywzxDj
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>ywzxDj()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:08:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:09:35
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>42s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_qxznb_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_qxznb_byStatus_passed_PASS3_details')">qxznb()</a>
+               </td>
+               <td nowrap="true">10:09:35</td>
+               <td nowrap="true" align="right">26s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_qxznb_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>qxznb
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>qxznb()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:09:35
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:01
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>26s
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.ywzxDj
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_zjzxcl_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_zjzxcl_byStatus_passed_PASS4_details')">zjzxcl()</a>
+               </td>
+               <td nowrap="true">10:10:01</td>
+               <td nowrap="true" align="right">25s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_zjzxcl_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>zjzxcl
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>zjzxcl()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:01
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>25s
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.qxznb
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_afterTest_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_afterTest_byStatus_passed_PASS5_details')">afterTest()</a>
+               </td>
+               <td nowrap="true">10:10:26</td>
+               <td nowrap="true" align="right">179 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_afterTest_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterTest
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterTest()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>179 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.core.shijianclcase.WenTiClCase08</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_beforeTest_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_beforeTest_byClass_PASS1_details')">beforeTest()</a>
+               </td>
+               <td nowrap="true">10:08:42</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_beforeTest_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeTest
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeTest()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:08:42
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:08:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_ywzxDj_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxDj_byClass_PASS2_details')">ywzxDj()</a>
+               </td>
+               <td nowrap="true">10:08:53</td>
+               <td nowrap="true" align="right">42s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxDj_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>ywzxDj
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>ywzxDj()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:08:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:09:35
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>42s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_qxznb_byClass_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_qxznb_byClass_PASS3_details')">qxznb()</a>
+               </td>
+               <td nowrap="true">10:09:35</td>
+               <td nowrap="true" align="right">26s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_qxznb_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>qxznb
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>qxznb()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:09:35
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:01
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>26s
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.ywzxDj
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_zjzxcl_byClass_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_zjzxcl_byClass_PASS4_details')">zjzxcl()</a>
+               </td>
+               <td nowrap="true">10:10:01</td>
+               <td nowrap="true" align="right">25s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_zjzxcl_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>zjzxcl
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>zjzxcl()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:01
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>25s
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.qxznb
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_ywzxja_byClass_FAIL5_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxja_byClass_FAIL5_details')">ywzxja()</a>
+               </td>
+               <td nowrap="true">10:10:26</td>
+               <td nowrap="true" align="right">9 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_ywzxja_byClass_FAIL5_exception')">org.openqa.selenium.UnhandledAlertException: 
+                     unexpected alert open: {Alert text : 请求失败}
+                     (Session info: chrome=60.0.3112.101)
+                     (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 7 milliseconds: null
+                     Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+                     System info: host: 'BAD-PC', ip: '192.168.71.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                     '1.8.0_92'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8268_13565},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101,
+                     platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: dc352bb41d4a4415f45386b80fd783fe
+                     *** Element info: {Using=name, value=username}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxja_byClass_FAIL5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>ywzxja
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>ywzxja()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>9 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           com.core.shijianclcase.WenTiClCase08.zjzxcl
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_ywzxja_byClass_FAIL5_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : 请求失败}
+                        (Session info: chrome=60.0.3112.101)
+                        (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 7 milliseconds: null
+                        Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+                        System info: host: 'BAD-PC', ip: '192.168.71.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                        '1.8.0_92'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8268_13565},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101,
+                        platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: dc352bb41d4a4415f45386b80fd783fe
+                        *** Element info: {Using=name, value=username}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:173)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+                        	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+                        	at com.core.webdriver.CoreBrowser.findElement(CoreBrowser.java:34)
+                        	at com.core.page.base.AbstractPage.setInputByName(AbstractPage.java:64)
+                        	at com.core.page.LoginPage.setUserName(LoginPage.java:13)
+                        	at com.core.page.LoginPage.login(LoginPage.java:25)
+                        	at com.core.shijianclcase.WenTiClCase08.ywzxja(WenTiClCase08.java:164)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+                        	at org.testng.TestRunner.run(TestRunner.java:602)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1144)
+                        	at org.testng.TestNG.run(TestNG.java:1115)
+                        	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.core.shijianclcase.WenTiClCase08_afterTest_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.core.shijianclcase.WenTiClCase08_afterTest_byClass_PASS6_details')">afterTest()</a>
+               </td>
+               <td nowrap="true">10:10:26</td>
+               <td nowrap="true" align="right">179 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="com.core.shijianclcase.WenTiClCase08_afterTest_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterTest
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterTest()[pri:0, instance:com.core.shijianclcase.WenTiClCase08@20322d26]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>10:10:26
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>179 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

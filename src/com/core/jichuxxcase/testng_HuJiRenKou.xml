@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+	<!--基础信息,户籍人口  -->
+	<test name="JiChuXinXiCase01" verbose="10"> <!--测试用例：基础信息,户籍人口，新增（必填信息），编辑提交，查看功能验证  -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase01">
+				<methods>
+					<include name="AddPeople" />
+					<include name="EditPeople" />
+					<include name="ChaKanPeople" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase02" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）  -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase02"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase03" verbose="10"> <!--测试用例： 基础信息>>户籍人口，新增（完整信息）,提交之后，再次点击新增，输入相同的身份证，弹出提示信息，点确定进入编辑页面，后提交。 -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase03"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase04" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击迁出，迁出网格至佛堂镇-义南工业区-1-1（傅晓康）ft010101 -->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase04"></class>
+		</classes>
+	</test>
+	<test name="JiChuXinXiCase05" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击常转流-->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase05"></class>
+		</classes>
+	</test>	
+	<test name="JiChuXinXiCase06" verbose="10"> <!--测试用例：基础信息>>户籍人口，新增（完整信息）,提交之后，点击删除-->
+		<classes>
+			<class name="com.core.jichuxxcase.HuJiRenKouCase06"></class>
+		</classes>
+	</test>
+	
+	
+</suite> <!-- Suite -->

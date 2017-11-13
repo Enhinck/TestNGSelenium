@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renwuclcase" parallel="false" configfailurepolicy="continue"
+	skipfailedinvocationcounts="true" preserve-order="true">
+
+	<test name="RenWuClCase02" verbose="10"><!--2、义乌市领导发起非紧急任务，选择办公室，暂存后，点击提交；区县职能办，区县中心，镇街中心进行任务处理；区县领导审核结案。 -->
+		<classes>
+			<class name="com.core.renwuclcase.RenWuClCase02">
+				<methods>
+					<include name="ywldRenWuJiaoBanzc_feiJinJi" />
+					<include name="ywbgsChuLi_feiJinJi" />
+					<include name="ywzxChuLi_feiJinJi" />
+					<include name="zjzxChuLi_feiJinJi" />
+					<include name="qxldShenHe_feiJinJi" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
